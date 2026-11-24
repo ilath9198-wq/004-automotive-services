@@ -75,7 +75,7 @@ export default function CockpitDrawer({ isOpen, onClose }: CockpitDrawerProps) {
 
       {/* Cockpit Drawer Panel */}
       <aside 
-        className="relative w-full max-w-md h-full bg-dark-950 border-l border-dark-700/80 shadow-2xl flex flex-col z-10 overflow-y-auto carbon-pattern transition-transform duration-300"
+        className="relative w-full max-w-[88vw] sm:max-w-md h-full bg-dark-950 border-l border-dark-700/80 shadow-2xl flex flex-col z-10 overflow-y-auto carbon-pattern transition-transform duration-300"
         aria-label="Cockpit Navigation"
       >
         {/* Cockpit HUD Top Bar */}
